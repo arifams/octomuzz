@@ -1,0 +1,41 @@
+div.blog {
+  width: 30%;
+}
+
+section.main {
+  width: 65%;
+}
+
+div.places.Japan, div.places.Norway, div.places.Faeroe  {
+  width: 100%;
+}
+
+aside {
+  width: 97%;
+  height: auto;
+  padding: 1%;
+  margin: 1%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  float: left;
+}
+
+.bar-right{
+   -webkit-align-items: stretch;
+   align-items: stretch;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+}
+
+.bar-right li {
+  height: auto;
+  /*min-width: 25%;*/
+}
+
+footer ul {
+  justify-content: space-around;
+}
