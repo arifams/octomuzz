@@ -11,7 +11,7 @@ HEADER
 --------------------*/
 
 /*This is the header bro*/
-#header 
+#header
 {
     background-color: #565774;
     width: 100%;
@@ -19,7 +19,7 @@ HEADER
 }
 
 /*This is the logo's value*/
-.imgheader img 
+.imgheader img
 {
     width: 180px;
     float: left;
@@ -29,15 +29,15 @@ HEADER
 .imgheader span
 {
     color: white;
-    position: absolute; 
-    top: 90px; 
-    left: 110px; 
+    position: absolute;
+    top: 90px;
+    left: 110px;
     width: 100%;
     font-family: "Source Sans Pro";
 }
 
 /* Remove margins and padding from the list, and add a black background color */
-ul.topnav 
+ul.topnav
 {
     list-style-type: none;
     margin: 0;
@@ -48,7 +48,7 @@ ul.topnav
 }
 
 /* Float the list items side by side */
-ul.topnav li 
+ul.topnav li
 {
     float: left;
 }
@@ -103,20 +103,20 @@ CONTAINER
 
 /*ontainer fis the style or the sidebar and content*/
 
-div.container 
+div.container
 {
   border: none;
   overflow: hidden;
   width: 100%;
 }
 
-div.left 
+div.left
 {
   width: 60%;
   float: left;
 }
 
-div.right 
+div.right
 {
   width: 35%;
   float: right;
@@ -140,4 +140,114 @@ blockquote.style1 {
       background-image: url(http://brikwars.com/wiki/images/b/be/Open_quote.png);
       background-repeat: no-repeat;
       background-position: bottom right;
+    }
+
+    #wrapper {
+      width: 100%;
+      margin: 0, auto;
+    }
+
+    div.holder {
+      width: 100%;
+      display: inline-block;
+    }
+
+    div.blog {
+      width: 22%;
+      height: 800px;
+      padding: 1%;
+      margin: 0 1%;
+      box-sizing: border-box;
+      border: 1px solid black;
+      float: left;
+    }
+
+    section.main {
+      width: 53%;
+      height: 800px;
+      margin: 0 1%;
+      border: 1px solid black;
+      float: left;
+      display: flex;
+      flex-wrap: wrap;
+    }
+      div.places {
+        width: 100%;
+        border: 1px solid black;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 1%;
+      }
+
+      div.places.Japan {
+        width: 50%;
+      }
+
+    aside {
+      width: 18%;
+      height: 800px;
+      margin: 0 1%;
+      border: 1px solid black;
+      box-sizing: border-box;
+      float: right;
+    }
+
+    .bar-right{
+      height: 100%;
+      list-style: none;
+      list-style-position: inside;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+      .bar-right li {
+        height: 12.5%;
+      }
+
+      .bar-right li a {
+        height: 100%;
+        display: block;
+        padding: 1em;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: black;
+      }
+
+    footer {
+      margin: 1%;
+      box-sizing: border-box;
+    }
+
+    footer ul {
+      width: 100%;
+      height: auto;
+      list-style: none;
+      list-style-position: inside;
+      text-align: center;
+      margin: 0;
+      padding: 1%;
+      background-color: #565774;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      justify-content: flex-end;
+    }
+
+    footer ul li a {
+      display: block;
+      padding: 1em;
+      text-decoration: none;
+      color: black;
     }

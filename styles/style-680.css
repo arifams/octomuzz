@@ -1,0 +1,27 @@
+div.blog {
+  display: none;
+}
+
+section.main {
+  width: 98%;
+}
+
+.bar-right li {
+  height: auto;
+  min-width: 50%;
+}
+
+footer {
+  width: 31%;
+  float: right;
+}
+
+    footer ul {
+      -webkit-flex-flow: column;
+      flex-flow: column;
+    }
+
+  aside {
+    width: 61%;
+    float: left;
+  }
