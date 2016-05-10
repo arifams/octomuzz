@@ -8,4 +8,3 @@ This is the information about octomuzz development
 	<li>10May2016 Leandro move to help Imran. Arif and Andrey moving forward to layout and JS</li>
 </ul>
 </p>
- 

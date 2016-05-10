@@ -123,21 +123,8 @@ div.right
 }
 
 /*This is to display blockquote*/
-blockquote.style1 {
-  font: 14px/20px italic Times, serif;
-  padding: 8px;
-  background-color: #faebbc;
-  border-top: 1px solid #e1cc89;
-  border-bottom: 1px solid #e1cc89;
-  margin: 5px;
-  background-image: url(http://brikwars.com/wiki/images/b/be/Open_quote.png);
-  background-position: top left;
-  background-repeat: no-repeat;
-  text-indent: 23px;
-  }
-  blockquote.style1 span {
-      display: block;
-      background-image: url(http://brikwars.com/wiki/images/b/be/Open_quote.png);
-      background-repeat: no-repeat;
-      background-position: bottom right;
-    }
+blockquote
+{ 
+  
+}
+  
