@@ -43,7 +43,7 @@ ul.topnav
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(0,0,0,0.3); /*black is 0, 0, 0 in rgb and 0.3 is the opacity/transparant value. Higher is darker or less transparant*/
+    background-color: rgba(0,0,0,0.7); /*black is 0, 0, 0 in rgb and 0.3 is the opacity/transparant value. Higher is darker or less transparant*/
     clear: both;
 }
 
@@ -64,7 +64,7 @@ ul.topnav li a {
     font-size: 17px;
 }
 
-/* Change background color of links on hover */
+/* Change background color of links on hover to menu */
 ul.topnav li a:hover {background-color: #111;}
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
