@@ -124,20 +124,18 @@ div.right
 
 /*This is to display blockquote*/
 blockquote.style1 {
-  font: 14px/20px italic Times, serif;
-  padding: 8px;
+  font: 1.2em italic Times, serif;
   background-color: #faebbc;
-  border-top: 1px solid #e1cc89;
-  border-bottom: 1px solid #e1cc89;
-  margin: 5px;
-  background-image: url(http://brikwars.com/wiki/images/b/be/Open_quote.png);
+  background-image: url("http://brikwars.com/wiki/images/b/be/Open_quote.png");
+  margin: 0;
+  height: 100%;
   background-position: top left;
   background-repeat: no-repeat;
   text-indent: 23px;
   }
   blockquote.style1 span {
       display: block;
-      background-image: url(http://brikwars.com/wiki/images/b/be/Open_quote.png);
+      background-image: url("http://brikwars.com/wiki/images/b/be/Open_quote.png");
       background-repeat: no-repeat;
       background-position: bottom right;
     }
@@ -156,16 +154,15 @@ blockquote.style1 {
     div.blog {
       width: 22%;
       height: auto;
-      padding: 1%;
+      padding-right: 1%;
       margin: 0 1%;
       box-sizing: border-box;
-      border: 1 px solid grey;
+      border-right: 1px solid grey;
       float: left;
     }
 
         .post {
-          border-left: 2 px solid grey;
-          border-right: 1 px solid black;
+          border-bottom: 1px solid gray;
         }
 
     .videoWrapper {
@@ -183,28 +180,28 @@ blockquote.style1 {
 
         a {
           text-decoration: none;
+          color: black;
+        }
+
+        a h4:hover {
           color: darkblue;
         }
 
-        a:hover {
-          color: darkgrey;
-        }
-
     section.main {
-      width: 53%;
-      height: 800px;
+      width: 60%;
+      height: auto;
+      border-right: 1px solid grey;
       margin: 0 1%;
-      border: 1px solid black;
       float: left;
       display: flex;
       flex-wrap: wrap;
     }
       div.places {
         width: 100%;
-        border: 1px solid black;
         display: inline-block;
-        box-sizing: border-box;
         padding: 1%;
+        box-sizing: border-box;
+        height: auto;
       }
 
       div.places.Japan {
@@ -212,7 +209,7 @@ blockquote.style1 {
       }
 
     aside {
-      width: 18%;
+      width: 10%;
       height: 800px;
       margin: 0 1%;
       border: 1px solid black;
