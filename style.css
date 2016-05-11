@@ -156,6 +156,7 @@ blockquote.style1 {
       height: auto;
       padding-right: 1%;
       margin: 0 1%;
+      margin-bottom: 1%;
       box-sizing: border-box;
       border-right: 1px solid grey;
       float: left;
@@ -212,7 +213,6 @@ blockquote.style1 {
       width: 10%;
       height: 800px;
       margin: 0 1%;
-      border: 1px solid black;
       box-sizing: border-box;
       float: right;
     }
@@ -235,17 +235,24 @@ blockquote.style1 {
     }
 
       .bar-right li {
-        height: 12.5%;
+        height: auto;
+        margin: 2% 0;
+        padding: 3% 0;
+        border-bottom: 1px solid lightgray;
+        box-sizing: border-box;
       }
 
       .bar-right li a {
         height: 100%;
         display: block;
-        padding: 1em;
+        padding: 0;
         box-sizing: border-box;
         text-decoration: none;
         color: black;
       }
+          .bar-right li a img {
+            width: 100%;
+          }
 
     footer {
       margin: 1%;
