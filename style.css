@@ -180,12 +180,12 @@ blockquote.style1 {
       height: 100%;
     }
 
-        a {
+        .blog a {
           text-decoration: none;
           color: black;
         }
 
-        a h4:hover {
+        .blog a h4:hover {
           color: darkblue;
         }
 
@@ -209,6 +209,10 @@ blockquote.style1 {
       div.places.Japan {
         width: 50%;
       }
+          .embedly-card a {
+            text-decoration: none;
+            color: black;
+          }
 
           .embedly-card {
             margin: 0;
@@ -296,4 +300,4 @@ blockquote.style1 {
       padding: 1em;
       text-decoration: none;
       color: black;
-    }ext
+    }
