@@ -125,130 +125,162 @@ div.right
 /*This is to display blockquote*/
 
 blockquote.style1 {
-  font: 14px/20px italic Times, serif;
-  padding: 8px;
+  font: 1.2em italic Times, serif;
   background-color: #faebbc;
-  border-top: 1px solid #e1cc89;
-  border-bottom: 1px solid #e1cc89;
-  margin: 5px;
-  background-image: url(http://brikwars.com/wiki/images/b/be/Open_quote.png);
+  background-image: url("http://brikwars.com/wiki/images/b/be/Open_quote.png");
+  margin: 0;
+  height: 100%;
   background-position: top left;
   background-repeat: no-repeat;
   text-indent: 23px;
   }
   blockquote.style1 span {
       display: block;
-      background-image: url(http://brikwars.com/wiki/images/b/be/Open_quote.png);
+      background-image: url("http://brikwars.com/wiki/images/b/be/Open_quote.png");
       background-repeat: no-repeat;
       background-position: bottom right;
     }
 
     #wrapper {
-    width: 100%;
-    margin: 0, auto;
-  }
-
-  div.holder {
-    width: 100%;
-    display: inline-block;
-  }
-
-  div.blog {
-    width: 22%;
-    height: 800px;
-    padding: 1%;
-    margin: 0 1%;
-    box-sizing: border-box;
-    border: 1px solid black;
-    float: left;
-  }
-
-  section.main {
-    width: 53%;
-    height: 800px;
-    margin: 0 1%;
-    border: 1px solid black;
-    float: left;
-    display: flex;
-    flex-wrap: wrap;
-  }
-    div.places {
       width: 100%;
-      border: 1px solid black;
+      margin: 0, auto;
+    }
+
+    div.holder {
+      width: 100%;
       display: inline-block;
+      margin-top: 2%;
+    }
+
+    div.blog {
+      width: 22%;
+      height: auto;
+      padding-right: 1%;
+      margin: 0 1%;
+      margin-bottom: 1%;
       box-sizing: border-box;
-      padding: 1%;
+      border-right: 1px solid grey;
+      float: left;
     }
 
-    div.places.Japan {
-      width: 50%;
-    }
+        .post {
+          border-bottom: 1px solid gray;
+        }
 
-  aside {
-    width: 18%;
-    height: 800px;
-    margin: 0 1%;
-    border: 1px solid black;
-    box-sizing: border-box;
-    float: right;
-  }
-
-  .bar-right{
-    height: 100%;
-    list-style: none;
-    list-style-position: inside;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-    .bar-right li {
-      height: 12.5%;
-    }
-
-    .bar-right li a {
+    .videoWrapper {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      height: 0;
+      }
+      .videoWrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
       height: 100%;
+    }
+
+        a {
+          text-decoration: none;
+          color: black;
+        }
+
+        a h4:hover {
+          color: darkblue;
+        }
+
+    section.main {
+      width: 60%;
+      height: auto;
+      border-right: 1px solid grey;
+      margin: 0 1%;
+      float: left;
+      display: flex;
+      flex-wrap: wrap;
+    }
+      div.places {
+        width: 100%;
+        display: inline-block;
+        padding: 1%;
+        box-sizing: border-box;
+        height: auto;
+      }
+
+      div.places.Japan {
+        width: 50%;
+      }
+
+    aside {
+      width: 10%;
+      height: 800px;
+      margin: 0 1%;
+      box-sizing: border-box;
+      float: right;
+    }
+
+    .bar-right{
+      height: 100%;
+      list-style: none;
+      list-style-position: inside;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+      .bar-right li {
+        height: auto;
+        margin: 2% 0;
+        padding: 3% 0;
+        border-bottom: 1px solid lightgray;
+        box-sizing: border-box;
+      }
+
+      .bar-right li a {
+        height: 100%;
+        display: block;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: black;
+      }
+          .bar-right li a img {
+            width: 100%;
+          }
+
+    footer {
+      margin: 1%;
+      box-sizing: border-box;
+    }
+
+    footer ul {
+      width: 100%;
+      height: auto;
+      list-style: none;
+      list-style-position: inside;
+      text-align: center;
+      margin: 0;
+      padding: 1%;
+      background-color: #565774;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      justify-content: flex-end;
+    }
+
+    footer ul li a {
       display: block;
       padding: 1em;
-      box-sizing: border-box;
       text-decoration: none;
       color: black;
     }
-
-  footer {
-    margin: 1%;
-    box-sizing: border-box;
-  }
-
-  footer ul {
-    width: 100%;
-    height: auto;
-    list-style: none;
-    list-style-position: inside;
-    text-align: center;
-    margin: 0;
-    padding: 1%;
-    background-color: #565774;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    justify-content: flex-end;
-  }
-
-  footer ul li a {
-    display: block;
-    padding: 1em;
-    text-decoration: none;
-    color: black;
-  }
