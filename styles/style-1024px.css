@@ -15,7 +15,6 @@ aside {
   height: auto;
   padding: 1%;
   margin: 1%;
-  border: 1px solid black;
   box-sizing: border-box;
   float: left;
 }
@@ -29,12 +28,29 @@ aside {
    flex-flow: row wrap;
    -webkit-align-content: stretch;
    align-content: stretch;
+   border-top: 1px solid lightgray;
 }
 
 .bar-right li {
   height: auto;
-  /*min-width: 25%;*/
+  flex: 1;
+  margin: 1%;
+  padding: 1%;
+  border-right: 1px solid lightgrey;
+  background-color: rgba(0,0,0,0.7);
 }
+
+.bar-right li a {
+  height: 100%;
+  display: block;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+}
+    .bar-right li a img {
+      width: 100%;
+    }
 
 footer ul {
   justify-content: space-around;

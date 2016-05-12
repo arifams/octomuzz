@@ -210,9 +210,17 @@ blockquote.style1 {
         width: 50%;
       }
 
+          .embedly-card {
+            margin: 0;
+          }
+
+          .places img {
+            width: 100%;
+          }
+
     aside {
       width: 10%;
-      height: 800px;
+      height: auto;
       margin: 0 1%;
       box-sizing: border-box;
       float: right;
@@ -236,6 +244,7 @@ blockquote.style1 {
     }
 
       .bar-right li {
+        flex: 1;
         height: auto;
         margin: 2% 0;
         padding: 3% 0;
@@ -252,6 +261,10 @@ blockquote.style1 {
         color: black;
       }
           .bar-right li a img {
+            width: 100%;
+          }
+
+          .bar-right li img {
             width: 100%;
           }
 
@@ -283,4 +296,4 @@ blockquote.style1 {
       padding: 1em;
       text-decoration: none;
       color: black;
-    }
+    }ext
