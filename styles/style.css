@@ -155,6 +155,8 @@ blockquote.style1 span {
     margin-top: 2%;
   }
 
+  /*styling for the left scroll bar with latest news posts*/
+
   div.blog {
     width: 22%;
     height: auto;
@@ -192,6 +194,8 @@ blockquote.style1 span {
         color: darkblue;
       }
 
+/*styling for the main section*/
+
   section.main {
     width: 60%;
     height: auto;
@@ -220,36 +224,7 @@ blockquote.style1 span {
         .embedly-card {
           margin: 0;
         }
-
-<<<<<<< HEAD:styles/style.css
-    section.main {
-      width: 60%;
-      height: auto;
-      margin: 0 1%;
-      float: left;
-      display: flex;
-      flex-wrap: wrap;
-    }
-      div.places {
-        width: 100%;
-        display: inline-block;
-        padding: 1%;
-        box-sizing: border-box;
-        height: auto;
-      }
-
-      div.places.Japan {
-        width: 50%;
-      }
-          .embedly-card a {
-            text-decoration: none;
-            color: black;
-          }
-=======
-        .places img {
-          width: 100%;
-        }
->>>>>>> refs/remotes/arifams/master:styles/style.css
+/*styling for the right scroll bar with the links to the relevant organiyations*/
 
   aside {
     width: 10%;
@@ -279,15 +254,12 @@ blockquote.style1 span {
     .bar-right li {
       flex: 1;
       height: auto;
-<<<<<<< HEAD:styles/style.css
       margin: 0 1%;
       padding: 1%;
       border-left: 1px solid grey;
-=======
       margin: 2% 0;
       padding: 3% 0;
       border-bottom: 1px solid lightgray;
->>>>>>> refs/remotes/arifams/master:styles/style.css
       box-sizing: border-box;
     }
 
@@ -306,6 +278,8 @@ blockquote.style1 span {
         .bar-right li img {
           width: 100%;
         }
+
+/*styling the footer*/
 
   footer {
     margin: 1%;
@@ -330,10 +304,26 @@ blockquote.style1 span {
     justify-content: flex-end;
   }
 
-<<<<<<< HEAD:styles/style.css
     footer ul li a {
       display: block;
       padding: 1em;
       text-decoration: none;
       color: black;
     }
+
+
+/*Adding the box-sizing property to prevent image caption borders from getting cut off in responsive designs*/
+*, *::before, *::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*styling the footer*/
+
+  footer ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+  }

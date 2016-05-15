@@ -353,10 +353,3 @@ div.donationtext {
     width: 100%;
     text-align: left;
   }
-
-  footer ul li a {
-    display: block;
-    padding: 1em;
-    text-decoration: none;
-    color: black;
-  }
