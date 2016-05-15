@@ -152,7 +152,7 @@ blockquote.style1 span {
   div.holder {
     width: 100%;
     display: inline-block;
-    margin-top: 2%;
+    margin-top: 2%, auto;
   }
 
   /*styling for the left scroll bar with latest news posts*/
@@ -172,6 +172,15 @@ blockquote.style1 span {
         border-bottom: 1px solid gray;
       }
 
+      .post a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .post a:hover {
+        color: darkblue;
+      }
+
   .videoWrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
@@ -185,19 +194,10 @@ blockquote.style1 span {
     height: 100%;
   }
 
-      .blog a {
-        text-decoration: none;
-        color: black;
-      }
-
-      .blog a h4:hover {
-        color: darkblue;
-      }
-
 /*styling for the main section*/
 
   section.main {
-    width: 60%;
+    width: 50%;
     height: auto;
     border-right: 1px solid grey;
     margin: 0 1%;
@@ -216,22 +216,23 @@ blockquote.style1 span {
     div.places.Japan {
       width: 50%;
     }
-        .embedly-card a {
-          text-decoration: none;
-          color: black;
+
+        .embedly-card iframe {
+          width: 100%;
         }
 
-        .embedly-card {
-          margin: 0;
+        .embedly-card .provider {
+          width: 100%;
         }
+
 /*styling for the right scroll bar with the links to the relevant organiyations*/
 
   aside {
-    width: 10%;
+    width: 20%;
     height: auto;
     margin: 0 1%;
     box-sizing: border-box;
-    float: right;
+    float: left;
   }
 
   .bar-right{
@@ -324,6 +325,13 @@ blockquote.style1 span {
 div.donationtext {
   width: 98%;
   margin: 0;
+}
+    .donationtext p {
+
+    }
+
+form.paypal {
+  margin: 2% 0;
 }
 
 /*styling the ul in the newsletter form on join.html*/
