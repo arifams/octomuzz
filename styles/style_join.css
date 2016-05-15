@@ -1,0 +1,41 @@
+/**styling the donation text*/
+
+div.donationtext {
+  width: 98%;
+  margin: 0;
+}
+
+/*styling the ul in the newsletter form on join.html*/
+#feedback {
+  width: 95%;
+  padding:0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.contact, .emotions {
+  list-style: none;
+  list-style-position: inside;
+  padding: 0;
+  margin-left: -10px;
+}
+
+  .contact li, .emotions li {
+    margin: 10px;
+  }
+
+  .contact li input, .contact li label {
+    text-align: left;
+  }
+
+  textarea#comments {
+    width: 100%;
+    text-align: left;
+  }
+=======
+  footer ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+  }
