@@ -17,6 +17,7 @@ aside {
   margin: 1%;
   box-sizing: border-box;
   float: left;
+  border-left: none;
 }
 
 .bar-right{
