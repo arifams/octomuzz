@@ -1,0 +1,197 @@
+/*This is the styling for wrapper map tooltip*/
+
+/* Relative positioning*/
+#wrapper-map 
+{
+  width: 100%;
+  position: 
+  position: fixed;
+  margin: 0, auto;
+  border: 0px solid #fafafa;
+  -moz-box-shadow: 0 3px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 3px 3px rgba(0,0,0,.5);
+  box-shadow: 0 3px 3px rgba(0,0,0,.5);
+}
+
+/* Hide the original tooltips contents */
+.pin 
+{
+  display: none;
+}
+
+/* Begin styling the tooltips and pins */
+.tooltip-up, .tooltip-down 
+{
+  position: absolute;
+  background: url(../img/arrow-up-down.png);
+  width: 36px;
+  height: 52px;
+}
+
+.tooltip-down 
+{
+  background-position: 0 -52px;
+}
+
+.tooltip 
+{
+  display: none;
+  width: 200px;
+  cursor: help;
+  text-shadow: 0 1px 0 #fff;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  z-index: 999;
+  margin-left: -115px;
+  padding:15px;
+  color: #222;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 3px 0 rgba(0,0,0,.7);
+  -webkit-box-shadow: 0 3px 0 rgba(0,0,0,.7);
+  box-shadow: 0 3px 0 rgba(0,0,0,.7);
+  background: #fff1d3;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff1d3), to(#ffdb90));
+  background: -webkit-linear-gradient(top, #fff1d3, #ffdb90);
+  background: -moz-linear-gradient(top, #fff1d3, #ffdb90);
+  background: -ms-linear-gradient(top, #fff1d3, #ffdb90);
+  background: -o-linear-gradient(top, #fff1d3, #ffdb90);
+  background: linear-gradient(top, #fff1d3, #ffdb90);     
+}
+
+.tooltip::after 
+{
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  margin-left: -10px;
+  border-bottom: 10px solid #fff1d3;
+  border-left: 10px solid transparent;
+  border-right :10px solid transparent;
+}
+
+.tooltip-down .tooltip 
+{
+  bottom: 12px;
+  top: auto;
+}
+
+.tooltip-down .tooltip::after 
+{
+  bottom: -10px;
+  top: auto;
+  border-bottom: 0;
+  border-top: 10px solid #ffdb90;
+}
+
+.tooltip h2 
+{
+  font: bold 1em 'Droid Serif', Tahoma, Arial;
+  margin: 0 0 10px;
+}
+
+.tooltip ul 
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}   
+
+/*-------------------
+2 columns style
+---------------------*/
+
+/*determine left content size column*/
+#content 
+{
+  float: left ;
+  width: 70% ;
+}
+
+/*determine right content size column*/
+#gallery 
+{
+  float: left ;
+  width: 30% ;
+  background-color: white;
+}
+
+#gallery h1,h2,h3,h4,h5,h6
+{
+  padding-left: 15px;
+}
+
+/*padding for left content area on 2 columns style*/
+#innercontent 
+{
+  padding: 0px ;
+}
+
+/*padding for right content area on 2 columns style*/
+#innergallery 
+{
+  padding-left: 15px ;
+  padding-right: 5px ;
+}
+
+/*h4 title city on image gallery for the right column*/
+#innergallery h4
+{
+  font-family: Tahoma;
+  font-size: 0.7em;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 10px;
+  color: darkblue;
+}
+
+/*-------------------
+Left column Gallery style
+---------------------*/
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: auto;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: auto;
+}
+
+/*This is content text mouse over image*/
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: 45px;
+  width: 100px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}

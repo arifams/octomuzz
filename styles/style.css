@@ -31,9 +31,10 @@ HEADER
     color: white;
     position: absolute;
     top: 90px;
-    left: 110px;
+    left: 120px;
     width: 100%;
     font-family: "Source Sans Pro";
+    font-size: 1em;
 }
 
 /* Remove margins and padding from the list, and add a black background color */
@@ -127,68 +128,100 @@ div.right
 blockquote.style1 {
   font: 1.2em italic Times, serif;
   background-color: #faebbc;
-  background-image: url("http://brikwars.com/wiki/images/b/be/Open_quote.png");
+  background-image: url(../img/open_quote.png);
   margin: 0;
   height: 100%;
   background-position: top left;
   background-repeat: no-repeat;
   text-indent: 23px;
   }
-  blockquote.style1 span {
-      display: block;
-      background-image: url("http://brikwars.com/wiki/images/b/be/Open_quote.png");
-      background-repeat: no-repeat;
-      background-position: bottom right;
-    }
+blockquote.style1 span {
+    display: block;
+    background-image: url(../img/open_quote.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
 
-    #wrapper {
-      width: 100%;
-      margin: 0, auto;
-    }
+/*Andrey styling to display warpping container for 3 columns: aside, main and sidebar*/
 
-    div.holder {
+  #wrapper {
+    width: 100%;
+    margin: 0, auto;
+  }
+
+  div.holder {
+    width: 100%;
+    display: inline-block;
+    margin-top: 2%;
+  }
+
+  div.blog {
+    width: 22%;
+    height: auto;
+    padding-right: 1%;
+    margin: 0 1%;
+    margin-bottom: 1%;
+    box-sizing: border-box;
+    border-right: 1px solid grey;
+    float: left;
+  }
+
+      .post {
+        border-bottom: 1px solid gray;
+      }
+
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    }
+    .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+      .blog a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .blog a h4:hover {
+        color: darkblue;
+      }
+
+  section.main {
+    width: 60%;
+    height: auto;
+    border-right: 1px solid grey;
+    margin: 0 1%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+  }
+    div.places {
       width: 100%;
       display: inline-block;
-      margin-top: 2%;
-    }
-
-    div.blog {
-      width: 22%;
-      height: auto;
-      padding-right: 1%;
-      margin: 0 1%;
-      margin-bottom: 1%;
+      padding: 1%;
       box-sizing: border-box;
-      border-right: 1px solid grey;
-      float: left;
+      height: auto;
     }
 
-        .post {
-          border-bottom: 1px solid gray;
-        }
-
-    .videoWrapper {
-      position: relative;
-      padding-bottom: 56.25%; /* 16:9 */
-      height: 0;
-      }
-      .videoWrapper iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+    div.places.Japan {
+      width: 50%;
     }
-
-        .blog a {
+        .embedly-card a {
           text-decoration: none;
           color: black;
         }
 
-        .blog a h4:hover {
-          color: darkblue;
+        .embedly-card {
+          margin: 0;
         }
 
+<<<<<<< HEAD:styles/style.css
     section.main {
       width: 60%;
       height: auto;
@@ -212,90 +245,92 @@ blockquote.style1 {
             text-decoration: none;
             color: black;
           }
+=======
+        .places img {
+          width: 100%;
+        }
+>>>>>>> refs/remotes/arifams/master:styles/style.css
 
-          .embedly-card {
-            margin: 0;
-          }
+  aside {
+    width: 10%;
+    height: auto;
+    margin: 0 1%;
+    box-sizing: border-box;
+    float: right;
+  }
 
-          .places img {
-            width: 100%;
-          }
+  .bar-right{
+    height: 100%;
+    list-style: none;
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    align-items: stretch;
+  }
 
-    aside {
-      width: 10%;
+    .bar-right li {
+      flex: 1;
       height: auto;
+<<<<<<< HEAD:styles/style.css
       margin: 0 1%;
       padding: 1%;
       border-left: 1px solid grey;
+=======
+      margin: 2% 0;
+      padding: 3% 0;
+      border-bottom: 1px solid lightgray;
+>>>>>>> refs/remotes/arifams/master:styles/style.css
       box-sizing: border-box;
-      float: right;
     }
 
-    .bar-right{
+    .bar-right li a {
       height: 100%;
-      list-style: none;
-      list-style-position: inside;
-      text-align: center;
+      display: block;
       padding: 0;
-      margin: 0;
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-flex-direction: column;
-      flex-direction: column;
-      align-items: stretch;
-    }
-
-      .bar-right li {
-        flex: 1;
-        height: auto;
-        margin: 2% 0;
-        padding: 3% 0;
-        border-bottom: 1px solid lightgray;
-        box-sizing: border-box;
-      }
-
-      .bar-right li a {
-        height: 100%;
-        display: block;
-        padding: 0;
-        box-sizing: border-box;
-        text-decoration: none;
-        color: black;
-      }
-          .bar-right li a img {
-            width: 100%;
-          }
-
-          .bar-right li img {
-            width: 100%;
-          }
-
-    footer {
-      margin: 1%;
       box-sizing: border-box;
+      text-decoration: none;
+      color: black;
     }
+        .bar-right li a img {
+          width: 100%;
+        }
 
-    footer ul {
-      width: 100%;
-      height: auto;
-      list-style: none;
-      list-style-position: inside;
-      text-align: center;
-      margin: 0;
-      padding: 1%;
-      background-color: #565774;
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-flex-flow: row wrap;
-      justify-content: flex-end;
-    }
+        .bar-right li img {
+          width: 100%;
+        }
 
+  footer {
+    margin: 1%;
+    box-sizing: border-box;
+  }
+
+  footer ul {
+    width: 100%;
+    height: auto;
+    list-style: none;
+    list-style-position: inside;
+    text-align: center;
+    margin: 0;
+    padding: 1%;
+    background-color: #565774;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-end;
+  }
+
+<<<<<<< HEAD:styles/style.css
     footer ul li a {
       display: block;
       padding: 1em;
@@ -337,3 +372,11 @@ div.donationtext {
     width: 100%;
     text-align: left;
   }
+=======
+  footer ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+  }
+>>>>>>> refs/remotes/arifams/master:styles/style.css
