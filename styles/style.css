@@ -30,7 +30,14 @@ HEADER
 {
     color: white;
     position: absolute;
+<<<<<<< HEAD:styles/style.css
+    top: 70px;
+=======
     top: 90px;
+<<<<<<< HEAD:styles/style.css
+=======
+>>>>>>> a-octomuzz:styles/style.css
+>>>>>>> master:styles/style.css
     left: 120px;
     width: 100%;
     font-family: "Source Sans Pro";
@@ -124,23 +131,48 @@ div.right
 }
 
 /*This is to display blockquote*/
-
 blockquote.style1 {
-  font: 1.2em italic Times, serif;
+  font: 1em italic Times, serif;
+  padding: 8px;
   background-color: #faebbc;
+<<<<<<< HEAD:styles/style.css
+=======
+<<<<<<< HEAD:styles/style.css
+  border-top: 1px solid #e1cc89;
+  border-bottom: 1px solid #e1cc89;
+  margin: 5px;
+  background-image: url(../img/open_quote.png);
+=======
+>>>>>>> master:styles/style.css
   background-image: url(../img/open_quote.png);
   margin: 0;
   height: 100%;
+>>>>>>> a-octomuzz:styles/style.css
   background-position: top left;
   background-repeat: no-repeat;
   text-indent: 23px;
   }
+<<<<<<< HEAD:styles/style.css
+=======
+<<<<<<< HEAD:styles/style.css
+  blockquote.style1 span {
+      display: block;
+      background-image: url(../img/pen_quote.png);
+      background-repeat: no-repeat;
+      background-position: bottom right;
+    }
+=======
+>>>>>>> master:styles/style.css
 blockquote.style1 span {
     display: block;
     background-image: url(../img/open_quote.png);
     background-repeat: no-repeat;
     background-position: bottom right;
   }
+<<<<<<< HEAD:styles/style.css
+=======
+>>>>>>> a-octomuzz:styles/style.css
+>>>>>>> master:styles/style.css
 
 /*Andrey styling to display warpping container for 3 columns: aside, main and sidebar*/
 
