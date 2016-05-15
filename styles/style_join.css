@@ -1,3 +1,11 @@
+/*Adding the box-sizing property to prevent image caption borders from getting cut off in responsive designs*/
+*, *::before, *::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
 /**styling the donation text*/
 
 div.donationtext {
