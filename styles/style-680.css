@@ -26,9 +26,9 @@ div.blog {
       display: none;
     }
 
-    blockquote p {
-      display: none;
-    }
+.blog {
+  display: none;
+}
 
 /*the main section composes the contents in this view*/
 
@@ -60,6 +60,8 @@ aside {
   flex: 1;
   height: auto;
 }
+
+
 
 footer ul li {
   min-width: 125px;

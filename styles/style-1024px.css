@@ -11,7 +11,9 @@ div.places.Japan, div.places.Norway, div.places.Faeroe  {
 }
 
 aside {
-  width: 97%;
+  display: none;
+}
+  /*width: 97%;
   height: auto;
   padding: 1%;
   margin: 1%;
@@ -51,7 +53,7 @@ aside {
 }
     .bar-right li a img {
       width: 100%;
-    }
+    }*/
 
 footer ul {
   justify-content: space-around;
