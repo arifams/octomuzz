@@ -304,3 +304,54 @@ blockquote.style1 span {
     text-decoration: none;
     color: black;
   }
+
+  /*Adding the box-sizing property to prevent image caption borders from getting cut off in responsive designs*/
+*, *::before, *::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/**styling the donation text*/
+
+div.donationtext {
+  width: 98%;
+  margin: 0;
+}
+.donationtext p {
+    font-size: 1.4em;
+}
+
+form.paypal {
+  margin: 2% 0;
+}
+
+/*styling the ul in the newsletter form on join.html*/
+#feedback {
+  width: 95%;
+  padding:0;
+  box-sizing: border-box;
+  position: relative;
+  color: #464646;
+  font-family: Oxygen, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.contact, .emotions, .emotions ul {
+  list-style: none;
+  list-style-position: inside;
+  padding: 0;
+  margin-left: -10px;
+}
+
+  .contact li, .emotions li {
+    margin: 10px;
+  }
+
+  .contact li input, .contact li label {
+    text-align: left;
+  }
+
+  textarea#comments {
+    width: 100%;
+    text-align: left;
+  }
