@@ -102,7 +102,7 @@ ul.topnav li.icon {display: none;}
 CONTAINER
 ---------------*/
 
-/*ontainer fis the style or the sidebar and content*/
+/*container fits the style or the sidebar and content*/
 
 div.container
 {
@@ -152,7 +152,7 @@ blockquote.style1 span {
   div.holder {
     width: 100%;
     display: inline-block;
-    margin-top: 2%;
+    margin-top: 2%, auto;
   }
 
   /*styling for the left scroll bar with latest news posts*/
@@ -172,6 +172,19 @@ blockquote.style1 span {
         border-bottom: 1px solid gray;
       }
 
+      .post p {
+        font-size: 1em;
+      }
+
+      .post a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .post a:hover {
+        color: darkblue;
+      }
+
   .videoWrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
@@ -185,19 +198,10 @@ blockquote.style1 span {
     height: 100%;
   }
 
-      .blog a {
-        text-decoration: none;
-        color: black;
-      }
-
-      .blog a h4:hover {
-        color: darkblue;
-      }
-
 /*styling for the main section*/
 
   section.main {
-    width: 60%;
+    width: 50%;
     height: auto;
     border-right: 1px solid grey;
     margin: 0 1%;
@@ -216,29 +220,23 @@ blockquote.style1 span {
     div.places.Japan {
       width: 50%;
     }
-        .embedly-card a {
-          text-decoration: none;
-          color: black;
-        }
 
-        .embedly-card {
-          margin: 0;
-        }
-<<<<<<< HEAD
-/*styling for the right scroll bar with the links to the relevant organiyations*/
-=======
-
-        .places img {
+        .embedly-card iframe {
           width: 100%;
         }
->>>>>>> refs/remotes/arifams/master
+
+        .embedly-card .provider {
+          width: 100%;
+        }
+
+/*styling for the right scroll bar with the links to the relevant organiyations*/
 
   aside {
-    width: 10%;
+    width: 20%;
     height: auto;
     margin: 0 1%;
     box-sizing: border-box;
-    float: right;
+    float: left;
   }
 
   .bar-right{
@@ -261,12 +259,9 @@ blockquote.style1 span {
     .bar-right li {
       flex: 1;
       height: auto;
-<<<<<<< HEAD
       margin: 0 1%;
       padding: 1%;
       border-left: 1px solid grey;
-=======
->>>>>>> refs/remotes/arifams/master
       margin: 2% 0;
       padding: 3% 0;
       border-bottom: 1px solid lightgray;
@@ -314,7 +309,6 @@ blockquote.style1 span {
     justify-content: flex-end;
   }
 
-<<<<<<< HEAD
     footer ul li a {
       display: block;
       padding: 1em;
@@ -330,17 +324,46 @@ blockquote.style1 span {
   box-sizing: border-box;
 }
 
-/*styling the footer*/
+/**styling the donation text*/
 
-=======
->>>>>>> refs/remotes/arifams/master
-  footer ul li a {
-    display: block;
-    padding: 1em;
-    text-decoration: none;
-    color: black;
-<<<<<<< HEAD
+div.donationtext {
+  width: 98%;
+  margin: 0;
+}
+.donationtext p {
+    font-size: 1.4em;
+}
+
+form.paypal {
+  margin: 2% 0;
+}
+
+/*styling the ul in the newsletter form on join.html*/
+#feedback {
+  width: 95%;
+  padding:0;
+  box-sizing: border-box;
+  position: relative;
+  color: #464646;
+  font-family: Oxygen, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.contact, .emotions, .emotions ul {
+  list-style: none;
+  list-style-position: inside;
+  padding: 0;
+  margin-left: -10px;
+}
+
+  .contact li, .emotions li {
+    margin: 10px;
   }
-=======
+
+  .contact li input, .contact li label {
+    text-align: left;
   }
->>>>>>> refs/remotes/arifams/master
+
+  textarea#comments {
+    width: 100%;
+    text-align: left;
+  }
