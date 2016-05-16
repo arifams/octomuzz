@@ -102,7 +102,7 @@ ul.topnav li.icon {display: none;}
 CONTAINER
 ---------------*/
 
-/*container fits the style or the sidebar and content*/
+/*ontainer fis the style or the sidebar and content*/
 
 div.container
 {
@@ -224,7 +224,14 @@ blockquote.style1 span {
         .embedly-card {
           margin: 0;
         }
+<<<<<<< HEAD
 /*styling for the right scroll bar with the links to the relevant organiyations*/
+=======
+
+        .places img {
+          width: 100%;
+        }
+>>>>>>> refs/remotes/arifams/master
 
   aside {
     width: 10%;
@@ -254,9 +261,12 @@ blockquote.style1 span {
     .bar-right li {
       flex: 1;
       height: auto;
+<<<<<<< HEAD
       margin: 0 1%;
       padding: 1%;
       border-left: 1px solid grey;
+=======
+>>>>>>> refs/remotes/arifams/master
       margin: 2% 0;
       padding: 3% 0;
       border-bottom: 1px solid lightgray;
@@ -304,6 +314,7 @@ blockquote.style1 span {
     justify-content: flex-end;
   }
 
+<<<<<<< HEAD
     footer ul li a {
       display: block;
       padding: 1em;
@@ -321,9 +332,15 @@ blockquote.style1 span {
 
 /*styling the footer*/
 
+=======
+>>>>>>> refs/remotes/arifams/master
   footer ul li a {
     display: block;
     padding: 1em;
     text-decoration: none;
     color: black;
+<<<<<<< HEAD
   }
+=======
+  }
+>>>>>>> refs/remotes/arifams/master
