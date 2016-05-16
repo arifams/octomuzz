@@ -78,24 +78,26 @@
 
       <section class="main">
         <div class="container">
-					<div style="width:100%; text-align:left;" ><iframe  src="https://www.eventbrite.co.uk/e/octomuzz-music-to-save-sea-animals-from-slaughter-tickets-25453650554?ref=eweb" frameborder="0" height="1000" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
-						<div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.co.uk/r/eweb">Powered by Eventbrite</a>
-						</div>
-					</div>
 					<div class="donationtext">
 						<p>
 							If you cannot attend one of our concerts right now, but still feel like being a part of our cause, a simple donation is very welcome too:
 						</p>
 					</div>
-						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-						<input type="hidden" name="cmd" value="_s-xclick">
-						<input type="hidden" name="hosted_button_id" value="MDXWU6LC5BHWW">
-						<input type="image" src="https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-					</form>
-        	<form id="feedback" action="script.php" method="post">
+					<form class="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="MDXWU6LC5BHWW">
+					<input type="image" src="https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+				</form><br>
+
+					<div class="eventbrite20" style="width:100%; text-align:left;" > <iframe  src="https://www.eventbrite.co.uk/e/octomuzz-music-to-save-sea-animals-from-slaughter-tickets-25453650554?ref=eweb" frameborder="0" height="1000" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+						<div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.co.uk/r/eweb">Powered by Eventbrite</a>
+						</div>
+					</div>
+
+        	<form id="feedback" action="welcome.php" method="post">
 						<input type="hidden" name="redirect" value=""><br>
-						Please tell us about yourself. Even if you are not intending to attend an event, we will keep in touch for future opportunities. All your contact details are safe with us:<br>
+						Please tell us about yourself, we would like to keep in touch for future opportunities. All your contact details are safe with us:<br>
 						<ul class="contact">
 							<li>
 								<label for="name">Your name:</label><br>
@@ -105,17 +107,16 @@
 								<label for="email">Your e-mail address:</label><br>
 								<input type="text" name="email" id="email" value="">
 							</li>
-							<li>
-						</ul>
+						</ul><br>
 						<ul class="emotions">
-							<li> Please check all the emotions that apply to you upon reading about the sea animal hunt:
+							<li> Please check all the emotions that apply to you upon reading about the sea animal hunt. Your answers will help us understand the impact of our project:
 								<ul>
 									<li><label for="angry">Angry</label><input type="checkbox" name="angry" id="angry" value="angry"></li>
 									<li><label for="sad">Sad</label><input type="checkbox" name="sad" id="sad" value="sad"></li>
 									<li><label for="shocked">Shocked</label><input type="checkbox" name="shocked" id="shocked" value="shocked"></li>
 									<li><label for="indifferent">Indifferent</label><input type="checkbox" name="indifferent" id="indifferent" value="indifferent"></li>
 								</ul>
-							</li>
+							</li><br>
 							<li>Please choose one option and tell us how likely you are to join an Octomuzz event in the future:
 								<ul>
 									<li><label for="definitely">I definitely will</label><input type="radio" name="definitely" id="definitely" value="definitely"></li>
@@ -124,16 +125,19 @@
 									<li><label for="never">It will never be possible for me</label><input type="radio" name="never" id="never" value="never"></li>
 								</ul>
 							</li>
-						</ul>
-								<label for="comments">Please share if you have any comments:</label>
-								<br><textarea name="comments" id="comments" rows="8" cols="40"></textarea>
-							</li>
+						</ul><br>
 							<li>
-								<input type="submit" value="submit"><br>
+								<label for="comments">Please share if you have any comments:</label><br>
+								<textarea name="comments" id="comments" rows="8" cols="40"></textarea>
 							</li>
+							<br>
+							<li>
+								<input type="submit" value="submit">
+							</li><br>
 							<li>
 								<input type="reset" value="reset">
 							</li>
+							<br>
 						</form>
         </div>
       </section>
