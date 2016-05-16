@@ -1,0 +1,15 @@
+/*at 780px width the blog bar is not shown anymore*/
+
+div.blog {
+display: none;
+
+/*the main section composes the contents in this view*/
+
+section.main {
+  width: 98%;
+}
+
+
+footer ul li {
+  min-width: 125px;
+}
