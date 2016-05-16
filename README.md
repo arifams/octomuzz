@@ -11,6 +11,7 @@ This is the information about octomuzz development
 	<li>14May 2016 Arif use github desktop to fetch, commit and pull request to github because terminal throw access denied error all the time</li>
 	<li>15May 2016 Andrey used github desktop and git shell to clone Arif's updated repo into the local file, compare/merge and push the changes to the origin master. The pull request has been merged automatically</li>
 	<li>15May 2016 Arif clean up (deleting files from master) and pull back again to remove HEAD bugs in many files. Also bought domain octomuzz.com and will work on CNAME and APEX on Route 53 in AWS</li>
+	<li>16May 2016 Andrey add form and Arif add php script into the form with Post action</li>
 	
 </ul>
 </p>
