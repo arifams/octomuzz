@@ -344,9 +344,11 @@ form.paypal {
   padding:0;
   box-sizing: border-box;
   position: relative;
+  color: #464646;
+  font-family: Oxygen, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-.contact, .emotions {
+.contact, .emotions, .emotions ul {
   list-style: none;
   list-style-position: inside;
   padding: 0;

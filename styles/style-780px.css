@@ -1,0 +1,11 @@
+div.blog {
+  display: none;
+}
+
+section.main {
+  width: 100%;
+}
+
+footer ul li {
+  min-width: 125px;
+}
